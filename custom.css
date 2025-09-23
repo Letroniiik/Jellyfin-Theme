@@ -22,6 +22,8 @@
     --color-text-body: var(--ui-50);
     --color-text-details: var(--ui-500);
 
+    --color-surface-body: var(--ui-1000) !important;
+
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
 }
@@ -69,4 +71,11 @@ body {
 /*Section*/
 .sectionTitle {
     font-size: 2rem !important;
+}
+
+/* Modified background color */
+html,
+.backgroundContainer:not(.withBackdrop):not(.backgroundContainer-transparent),
+.noBackdropTransparency .detailPageSecondaryContainer {
+    background-color: var(--color-surface-body) !important;
 }
