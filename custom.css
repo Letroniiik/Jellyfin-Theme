@@ -40,7 +40,7 @@ body {
 .cardText-first {
     font-weight: 700 !important;
     color: var(--color-text-heading) !important;
-    padding-top: .5rem !important;
+    
 }
 
 .cardText.cardTextCentered {
@@ -49,6 +49,7 @@ body {
 
 .cardText {
     padding: 0 !important;
+    padding-top: .5rem !important;
 }
 
 
