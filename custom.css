@@ -84,3 +84,7 @@ html,
 .noBackdropTransparency .detailPageSecondaryContainer {
     background-color: var(--color-surface-body) !important;
 }
+
+.sectionTitle {
+    margin-right: .5rem !important;
+}
