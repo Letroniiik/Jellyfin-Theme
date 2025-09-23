@@ -48,6 +48,6 @@ body {
     padding: none !important;
 }
 
-.cardBox:not(.visualCardBox).cardPadder {
+.cardBox:not(.visualCardBox) .cardPadder {
     border-radius: var(--radius-main) !important;
 }
