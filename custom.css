@@ -76,7 +76,9 @@ body {
 /*Section*/
 .sectionTitle {
     font-size: 2rem !important;
+    margin-right: .5rem !important;
 }
+
 
 /* Modified background color */
 html,
@@ -85,6 +87,6 @@ html,
     background-color: var(--color-surface-body) !important;
 }
 
-.sectionTitle {
-    margin-right: .5rem !important;
+.innerCardFooter .fullInnerCardFooter .innerCardFooterClear {
+    padding: .5rem !important;
 }
