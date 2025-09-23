@@ -51,4 +51,5 @@ body {
 
 .cardPadder {
     border-radius: var(--radius-card) !important;
+    overflow: clip !important;
 }
