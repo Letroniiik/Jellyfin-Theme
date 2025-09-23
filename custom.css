@@ -1,7 +1,7 @@
 /*General Theming*/
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-:root{
+[data-theme="dark"]{
     --ui-1000: #FFFFFF;
     --ui-950: #F2F2F2;
     --ui-900: #E5E5E5;
@@ -19,7 +19,7 @@
     --ui-0: #000000;
 }
 
-[data-theme="dark"] {
+ :root{
     --ui-1000: #000000;
     --ui-950: #0D0D0D;
     --ui-900: #1A1A1A;
@@ -37,7 +37,9 @@
     --ui-0: #FFFFFF;
 }
 
-
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+}
 
 body {
     font-family: Figtree !important;
