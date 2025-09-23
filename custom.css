@@ -59,25 +59,6 @@ body {
     padding: 0 !important;
 }
 
-/* Progress Bar */
-.itemProgressBar {
-    margin: 1rem !important;
-    background-color: var(--ui-800) !important;
-    border-radius: 20rem !important;
-    overflow: clip !important;
-}
-
-.itemProgressBarForeground {
-    background-color: var(--ui-50) !important;
-}
-
-/* Hide Play Button on Card */
-button.cardOverlayButton {
-    display: none !important;
-}
-
-
-
 /* Rounded cards */
 .cardContent,
 .cardPadder,
@@ -94,6 +75,25 @@ button.cardOverlayButton {
 .sectionTitle {
     font-size: 2rem !important;
     margin-right: .5rem !important;
+}
+
+
+/* Progress Bar */
+.itemProgressBar {
+    margin: 1rem !important;
+    background-color: var(--ui-800) !important;
+    border-radius: 20rem !important;
+    overflow: clip !important;
+}
+
+.itemProgressBarForeground {
+    background-color: var(--ui-50) !important;
+    border-radius: 0 20rem 20rem 0 !important;
+}
+
+/* Hide Play Button on Card */
+button.cardOverlayButton {
+    display: none !important;
 }
 
 
