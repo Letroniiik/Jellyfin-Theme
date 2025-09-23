@@ -61,7 +61,7 @@ body {
 
 .itemProgressBar {
     margin: 1rem !important;
-    background-color: var(--ui-500) !important;
+    background-color: var(--ui-800) !important;
     border-radius: 20rem !important;
     overflow: clip !important;
 }
