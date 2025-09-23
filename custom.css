@@ -34,12 +34,14 @@ body {
     font-family: Figtree !important;
     line-height: 1.5 !important;
     letter-spacing: -0.019em !important;
+    color: var(--ui-50) !important;
 }
 
 /*Card*/
 .cardText-first {
     font-weight: 700 !important;
     color: var(--color-text-heading) !important;
+    font-size: 1rem !important;
     
 }
 
@@ -62,4 +64,9 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
+}
+
+/*Section*/
+.sectionTitle {
+    font-size: 2rem !important;
 }
