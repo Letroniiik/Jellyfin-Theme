@@ -23,6 +23,7 @@
     --color-text-details: var(--ui-500);
 
     --radius-main: 1rem;
+    --radius-card: var(--radius-main);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -48,6 +49,6 @@ body {
     padding: none !important;
 }
 
-.cardBox:not(.visualCardBox) .cardPadder {
-    border-radius: var(--radius-main) !important;
+.cardImageContainer {
+    border-radius: var(--radius-card) !important;
 }
