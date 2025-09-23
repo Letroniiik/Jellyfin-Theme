@@ -1,3 +1,11 @@
+/*General Theming*/
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    font-family: Figtree;
+}
+
 /*Themeing for the dasboard*/
 .paperList, .visualCardBox {background-color: rgba(0, 0, 0, 0.5); border-radius: 6px;}
 .listItemIcon {border-radius: 6px !important;}
