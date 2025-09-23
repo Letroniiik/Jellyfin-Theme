@@ -59,6 +59,7 @@ body {
     padding: 0 !important;
 }
 
+/* Progress Bar */
 .itemProgressBar {
     margin: 1rem !important;
     background-color: var(--ui-800) !important;
@@ -66,13 +67,16 @@ body {
     overflow: clip !important;
 }
 
+.itemProgressBarForeground {
+    background-color: var(--ui-50) !important;
+}
+
+/* Hide Play Button on Card */
 button.cardOverlayButton {
     display: none !important;
 }
 
-.itemProgressBarForeground {
-    background-color: var(--ui-50) !important;
-}
+
 
 /* Rounded cards */
 .cardContent,
