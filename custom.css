@@ -59,6 +59,10 @@ body {
     padding: 0 !important;
 }
 
+.cardScalable:hover {
+    scale: 1.1;
+}
+
 /* Rounded cards */
 .cardContent,
 .cardPadder,
