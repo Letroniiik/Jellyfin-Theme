@@ -8,5 +8,5 @@ body {
 
 /*Card*/
 .cardText-first {
-    font-weight: 800;
+    font-weight: 800 !important;
 }
