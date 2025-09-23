@@ -61,6 +61,7 @@ body {
 
 .itemProgressBar {
     margin: .5rem !important;
+    background-color: var(--ui-600) !important;
 }
 
 .cardOverlayButton .cardOverlayButton-br .itemAction .paper-icon-button-light {
