@@ -17,6 +17,10 @@
     --ui-100: #E5E5E5;
     --ui-50: #F2F2F2;
     --ui-0: #FFFFFF;
+
+    --color-text-heading: var(--ui-50);
+    --color-text-body: var(--ui-50);
+    --color-text-details: var(--ui-500);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -30,5 +34,9 @@ body {
 /*Card*/
 .cardText-first {
     font-weight: 700 !important;
-    color: var(--ui-50) !important;
+    color: var(--color-text-heading) !important;
+}
+
+.cardText.cardTextCentered {
+    text-align: start !important;
 }
