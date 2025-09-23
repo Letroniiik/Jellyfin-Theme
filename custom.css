@@ -70,6 +70,7 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
+    border: 1px solid var(--ui-800) !important;
 }
 
 /*Section*/
