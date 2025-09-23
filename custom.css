@@ -59,6 +59,13 @@ body {
     padding: 0 !important;
 }
 
+.innerCardFooter .fullInnerCardFooter .innerCardFooterClear {
+    padding: .5rem !important;
+}
+
+.cardOverlayButton .cardOverlayButton-br .itemAction .paper-icon-button-light {
+    display: none !important;
+}
 
 
 /* Rounded cards */
@@ -87,6 +94,3 @@ html,
     background-color: var(--color-surface-body) !important;
 }
 
-.innerCardFooter .fullInnerCardFooter .innerCardFooterClear {
-    padding: .5rem !important;
-}
