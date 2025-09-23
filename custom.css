@@ -49,5 +49,5 @@ body {
 }
 
 .cardBox:not(.visualCardBox).cardPadder {
-    border-radius: var(--radius-main);
+    border-radius: var(--radius-main) !important;
 }
