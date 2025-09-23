@@ -67,6 +67,9 @@ body {
     display: none !important;
 }
 
+.itemProgressBarForeground {
+    background-color: var(--ui-50) !important;
+}
 
 /* Rounded cards */
 .cardContent,
