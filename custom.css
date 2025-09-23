@@ -1,6 +1,43 @@
 /*General Theming*/
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root{
+    --ui-1000: #FFFFFF;
+    --ui-950: #F2F2F2;
+    --ui-900: #E5E5E5;
+    --ui-850: #D9D9D9;
+    --ui-800: #CCCCCC;
+    --ui-700: #B2B2B2;
+    --ui-600: #999999;
+    --ui-500: #808080;
+    --ui-400: #666666;
+    --ui-300: #4D4D4D;
+    --ui-200: #333333;
+    --ui-150: #262626;
+    --ui-100: #1A1A1A;
+    --ui-50: #0D0D0D;
+    --ui-0: #000000;
+}
+
+[data-theme="dark"] {
+    --ui-1000: #000000;
+    --ui-950: #0D0D0D;
+    --ui-900: #1A1A1A;
+    --ui-850: #262626;
+    --ui-800: #333333;
+    --ui-700: #4D4D4D;
+    --ui-600: #666666;
+    --ui-500: #808080;
+    --ui-400: #999999;
+    --ui-300: #B2B2B2;
+    --ui-200: #CCCCCC;
+    --ui-150: #D9D9D9;
+    --ui-100: #E5E5E5;
+    --ui-50: #F2F2F2;
+    --ui-0: #FFFFFF;
+}
+
+
 
 body {
     font-family: Figtree !important;
