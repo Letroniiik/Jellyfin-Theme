@@ -49,6 +49,6 @@ body {
     padding: none !important;
 }
 
-.cardImageContainer {
+.cardPadder {
     border-radius: var(--radius-card) !important;
 }
