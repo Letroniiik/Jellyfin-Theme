@@ -46,4 +46,5 @@ body {
 /*Card*/
 .cardText-first {
     font-weight: 700 !important;
+    color: var(--ui-50) !important;
 }
