@@ -51,7 +51,14 @@ body {
     padding: none !important;
 }
 
-.cardBox {
+
+/* Rounded cards */
+.cardContent,
+.cardPadder,
+.cardOverlayContainer,
+.blurhash-canvas,
+.dialog,
+.itemSelectionPanel,
+.nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
-    overflow: clip !important;
 }
