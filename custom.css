@@ -64,7 +64,11 @@ body {
 }
 
 .cardScalable:hover {
-    scale: 1.01;
+    scale: 1.01 !important;
+}
+
+.cardBox {
+    margin-right: 2rem !important;
 }
 
 /* Rounded cards */
