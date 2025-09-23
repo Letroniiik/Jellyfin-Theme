@@ -96,6 +96,11 @@ button.cardOverlayButton {
     display: none !important;
 }
 
+/* Hide Card Indicator */
+.cardIndicators {
+    display: none !important;
+}
+
 
 /* Modified background color */
 html,
