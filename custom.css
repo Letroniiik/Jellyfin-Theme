@@ -3,7 +3,7 @@
 
 
 body {
-    font-family: Figtree;
+    font-family: Figtree !important;
 }
 
 /*Themeing for the dasboard*/
