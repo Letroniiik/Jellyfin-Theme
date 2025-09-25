@@ -123,4 +123,17 @@ html,
     background-color: var(--ui-900);
     border-radius: 50rem;
     padding: .5rem;
+    margin-inline: auto;
+}
+
+.emby-tab-button {
+    color: var(--ui-500);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.emby-tab-button-active {
+    color: var(--color-text-heading);
+    background-color: var(--ui-700);
 }
