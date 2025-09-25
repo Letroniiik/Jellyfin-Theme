@@ -158,8 +158,8 @@ html,
     padding: 1rem;
 }
 
-.headerUserButtonRound {
-    width: 2rem;
+.headerUserButtonRound div {
+    width: 1.6695652174em;
     aspect-ratio: 1/1;
     border-radius: 1rem;
 }
