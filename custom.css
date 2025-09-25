@@ -220,18 +220,8 @@ html,
 }
 
 @media (max-width: 50rem) {
-
-    body {
-        position: relative;
-    }
-
-    .skinHeader {
-    position: static;
-    }
-
     .headerTabs {
-    top: auto;
-    bottom: 2rem;
+    display: none;
 
 }
 }
