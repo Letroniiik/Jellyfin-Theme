@@ -158,11 +158,12 @@ html,
     padding: 1rem;
 }
 
-.headerUserButtonRound div {
-    width: 1.6695652174em;
-    aspect-ratio: 1/1;
+.headerUserButtonRound div,.headerUserImage {
+    background-position: 50%;
+    background-repeat: no-repeat;
     border-radius: 1rem;
-    overflow: clip;
+    width: 1rem;
+    aspect-ratio: 1/1;
 }
 
 /* Icons */
