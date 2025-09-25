@@ -113,3 +113,14 @@ html,
     background-color: var(--color-surface-body) !important;
 }
 
+/* Nav */
+.skinHeader {
+    background-color: transparent !important;
+}
+
+.headerTabs {
+    width: fit-content;
+    background-color: var(--ui-900);
+    border-radius: 50rem;
+    padding: .5rem;
+}
