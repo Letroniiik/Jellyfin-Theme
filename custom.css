@@ -117,6 +117,7 @@ html,
 .skinHeader {
     background-color: transparent !important;
     min-height: 7.5rem;
+    position: relative;
 }
 
 .headerTabs {
