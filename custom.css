@@ -26,6 +26,8 @@
 
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
+
+    --color-text-hover: red;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -139,6 +141,10 @@ html,
     border-radius: 50rem;
 }
 
+.emby-tab-button:hover {
+    color: var(--color-text-hover);
+}
+
 .emby-tab-button-active {
     color: var(--color-text-heading);
     background-color: var(--ui-700);
@@ -153,4 +159,21 @@ html,
 /* Icons */
 .material-icons {
     font-size: 1rem;
+}
+
+/* Buttons */
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: var(--color-text-hover);
+        background-color: rgba(var(--color-text-hover), 0.2);
+    }
+}
+
+.paper-icon-button-light:active:not(:disabled) {
+        color: var(--color-text-hover);
+        background-color: rgba(var(--color-text-hover), 0.2);
+}
+
+.paper-icon-button-light.show-focus:focus {
+    color: var(--color-text-hover);
 }
