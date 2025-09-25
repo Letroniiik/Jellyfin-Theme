@@ -149,3 +149,8 @@ html,
     border-radius: .75rem;
     padding: 1rem;
 }
+
+/* Icons */
+.material-icons {
+    font-size: 1rem;
+}
