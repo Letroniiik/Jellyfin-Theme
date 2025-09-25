@@ -116,6 +116,7 @@ html,
 /* Nav */
 .skinHeader {
     background-color: transparent !important;
+    height: fit-content;
 }
 
 .headerTabs {
@@ -123,9 +124,10 @@ html,
     background-color: var(--ui-900);
     border-radius: 50rem;
     padding: .5rem;
-    margin-inline: auto;
     position: absolute;
     top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .emby-tab-button {
