@@ -147,6 +147,7 @@ html,
         align-self: center;
         -webkit-justify-content: center;
         justify-content: center;
+        margin-top: 0;
         position: absolute;
         width: auto
     }
