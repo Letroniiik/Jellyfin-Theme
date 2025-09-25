@@ -146,5 +146,6 @@ html,
 
 .headerButton {
     background-color: var(--ui-900);
-    border-radius: 1rem;
+    border-radius: .75rem;
+    padding: 1rem;
 }
