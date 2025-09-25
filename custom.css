@@ -116,7 +116,7 @@ html,
 /* Nav */
 .skinHeader {
     background-color: transparent !important;
-    height: fit-content;
+    min-height: 7.5rem;
 }
 
 .headerTabs {
