@@ -27,7 +27,9 @@
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
 
-    --color-text-hover: red;
+    --color-text-hover: var(--ui-0);
+    --color-surface-button-hover: var(--ui-800);
+    --color-surface-button: var(--ui-900);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -164,16 +166,16 @@ html,
 /* Buttons */
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
-        color: var(--ui-0);
-        background-color: var(--ui-800);
+        color: var(--color-text-hover);
+        background-color: var(--color-surface-button-hover);
     }
 }
 
 .paper-icon-button-light:active:not(:disabled) {
-        color: var(--ui-0);
-        background-color: var(--ui-800);
+        color: var(--color-text-hover);
+        background-color: var(--color-surface-button-hover);
 }
 
 .paper-icon-button-light.show-focus:focus {
-    color: var(--ui-0);
+    color: var(--color-text-hover);
 }
