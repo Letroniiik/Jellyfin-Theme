@@ -162,6 +162,7 @@ html,
     width: 1.6695652174em;
     aspect-ratio: 1/1;
     border-radius: 1rem;
+    overflow: clip;
 }
 
 /* Icons */
