@@ -143,3 +143,8 @@ html,
     color: var(--color-text-heading);
     background-color: var(--ui-700);
 }
+
+.headerButton {
+    background-color: var(--ui-900);
+    border-radius: 1rem;
+}
