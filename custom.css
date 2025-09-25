@@ -211,3 +211,10 @@ html,
 .paper-icon-button-light.show-focus:focus {
     color: var(--color-text-hover);
 }
+
+/* Scroll(Slider) Buttons*/
+.emby-scrollbuttons-button {
+    background-color: var(--color-surface-button);
+    border-radius: 50rem;
+    padding: .5rem;
+}
