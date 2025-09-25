@@ -158,6 +158,12 @@ html,
     padding: 1rem;
 }
 
+.headerUserButtonRound {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+}
+
 /* Icons */
 .material-icons {
     font-size: 1rem;
