@@ -250,27 +250,28 @@ html,
 
 /* Player */
 .mdl-slider-background-lower {
- background-color: red !important;
+ background-color: white !important;
 }
 
 .mdl-slider {
- color: red !important;
+ color: white !important;
 }
 
 .mdl-slider::-ms-thumb {
-    background: red !important;
+    background: white !important;
 }
 
 .mdl-slider::-moz-range-thumb {
-    background: red !important;
+    background: white !important;
 }
 
 .sliderMarker.watched {
-    background-color: red !important;
+    background-color: white !important;
 }
 
 .mdl-slider::-webkit-slider-thumb {
-    background: red !important;
+    background: white !important;
+    height: 100%;
 }
 
 .mdl-slider-background-upper {
