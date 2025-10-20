@@ -279,6 +279,8 @@ html,
  border-radius: 20rem !important;
 }
 
-.mdl-slider-background-flex-container {
+.mdl-slider-background-flex {
  height: 12px !important;
+ border-radius: 20rem !important;
+ background: none;
 }
