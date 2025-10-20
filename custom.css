@@ -271,7 +271,7 @@ html,
 
 .sliderMarker.watched {
     background-color: white !important;
-    display: none !important; 
+
 }
 
 .mdl-slider::-webkit-slider-thumb {
