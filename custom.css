@@ -27,6 +27,8 @@
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
 
+    --border-main: 1px solid var(--ui-800) 
+
     --color-text-hover: var(--ui-0);
     --color-surface-button-hover: var(--ui-800);
     --color-surface-button: var(--ui-900);
@@ -76,7 +78,7 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
-    border: 1px solid var(--ui-800) !important;
+    border: var(--border-main);
 }
 
 /*Section*/
@@ -227,4 +229,10 @@ html,
     display: none;
 
 }
+}
+
+/* Series List */
+.listItemImage {
+ border-radius: var(--radius-card);
+ border: var(--border-main);
 }
