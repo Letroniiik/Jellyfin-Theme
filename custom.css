@@ -259,6 +259,7 @@ html,
 
 .mdl-slider::-ms-thumb {
     background: white !important;
+    height: 100%;
 }
 
 .mdl-slider::-moz-range-thumb {
@@ -271,7 +272,6 @@ html,
 
 .mdl-slider::-webkit-slider-thumb {
     background: white !important;
-    height: 100%;
 }
 
 .mdl-slider-background-upper {
