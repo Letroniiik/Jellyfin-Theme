@@ -80,7 +80,9 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
-    border: var(--border-main);
+     border-color: var(--border-main);
+     border-width: var(--border-main-width);
+     border-style: var(--border-main-style);
 }
 
 /*Section*/
@@ -235,13 +237,13 @@ html,
 
 /* Series List */
 .listItemImage {
- border-radius: var(--radius-card);
- border-color: var(--border-main);
+ border-radius: 0.5rem;
+ border-color: var(--border-main-color);
  border-width: var(--border-main-width);
  border-style: var(--border-main-style);
 }
 
 .listItem {
  border-radius: var(--radius-card);
- padding: 2rem;
+ padding: 1rem;
 }
