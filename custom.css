@@ -260,7 +260,13 @@ html,
 
 .mdl-slider::-ms-thumb {
     background: white !important;
-    height: 100%;
+    width: 0px;
+    height: 0px;
+}
+
+..mdl-slider::-webkit-slider-thumb {
+   width: 0px;
+   height: 0px;
 }
 
 .mdl-slider::-moz-range-thumb {
@@ -297,4 +303,5 @@ html,
 }
 
 .sliderBubble {
+ border-radius: 20rem; 
 }
