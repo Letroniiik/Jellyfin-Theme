@@ -287,10 +287,11 @@ html,
  border-radius: 20rem !important;
 }
 
+
+// Set Bar Hight here?
 .mdl-slider-background-flex {
  border-radius: 20rem !important;
  background: none;
- min-height: 10px !important;
 }
 
 .mdl-slider-background-flex-inner {
