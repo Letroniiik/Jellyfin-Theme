@@ -252,3 +252,7 @@ html,
 .mdl-slider-background-lower {
  background-color: red !important;
 }
+
+.mdl-slider {
+ color: red !important;
+}
