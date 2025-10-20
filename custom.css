@@ -27,7 +27,9 @@
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
 
-    --border-main: 1px solid var(--ui-800); 
+    --border-main-width: 1px; 
+    --border-main-style: solid;
+    --border-main-color: var(--ui-800); 
 
     --color-text-hover: var(--ui-0);
     --color-surface-button-hover: var(--ui-800);
@@ -234,9 +236,12 @@ html,
 /* Series List */
 .listItemImage {
  border-radius: var(--radius-card);
- border: var(--border-main);
+ border-color: var(--border-main);
+ border-width: var(--border-main-width);
+ border-style: var(--border-main-style);
 }
 
 .listItem {
  border-radius: var(--radius-card);
+ padding: 2rem;
 }
