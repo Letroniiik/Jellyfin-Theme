@@ -261,12 +261,10 @@ html,
 .mdl-slider::-ms-thumb {
     background: white !important;
     height: 100%;
-    display: none !important; 
 }
 
 .mdl-slider::-moz-range-thumb {
     background: white !important;
-    display: none !important; 
 }
 
 .sliderMarker.watched {
@@ -276,7 +274,6 @@ html,
 
 .mdl-slider::-webkit-slider-thumb {
     background: white !important;
-    display: none !important; 
 }
 
 .mdl-slider-background-upper {
