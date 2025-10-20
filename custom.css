@@ -27,7 +27,7 @@
     --radius-main: 1rem;
     --radius-card: var(--radius-main);
 
-    --border-main: 1px solid var(--ui-800) 
+    --border-main: 1px solid var(--ui-800); 
 
     --color-text-hover: var(--ui-0);
     --color-surface-button-hover: var(--ui-800);
@@ -235,4 +235,8 @@ html,
 .listItemImage {
  border-radius: var(--radius-card);
  border: var(--border-main);
+}
+
+.listItem {
+ border-radius: var(--radius-card);
 }
