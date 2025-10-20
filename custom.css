@@ -255,7 +255,7 @@ html,
 }
 
 .mdl-slider {
- color: white !important;
+ color: red !important;
 }
 
 .mdl-slider::-ms-thumb {
