@@ -256,3 +256,19 @@ html,
 .mdl-slider {
  color: red !important;
 }
+
+.mdl-slider::-ms-thumb {
+    background: red !important;
+}
+
+.mdl-slider::-moz-range-thumb {
+    background: red !important;
+}
+
+.sliderMarker.watched {
+    background-color: red !important;
+}
+
+.mdl-slider::-webkit-slider-thumb {
+    background: red !important;
+}
