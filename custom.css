@@ -261,12 +261,12 @@ html,
 .mdl-slider::-ms-thumb {
     background: white !important;
     height: 100%;
-    display: none; 
+    display: none !important; 
 }
 
 .mdl-slider::-moz-range-thumb {
     background: white !important;
-    display: none; 
+    display: none !important; 
 }
 
 .sliderMarker.watched {
