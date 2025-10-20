@@ -250,5 +250,5 @@ html,
 
 /* Player */
 .mdl-slider-background-lower {
- color: red !important;
+ background-color: red !important;
 }
