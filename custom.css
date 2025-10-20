@@ -80,9 +80,9 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
-    border-color: var(--border-main-color);
-    border-width: var(--border-main-width);
-    border-style: var(--border-main-style);
+    border-color: var(--border-main-color) !important;
+    border-width: var(--border-main-width) !important;
+    border-style: var(--border-main-style) !important;
 }
 
 /*Section*/
