@@ -284,11 +284,12 @@ html,
 .mdl-slider-background-flex {
  border-radius: 20rem !important;
  background: none;
+ min-height: 10px !important;
 }
 
 .mdl-slider-background-flex-inner {
  border-radius: 20rem !important;
- min-height: 10px !important;
+
 }
 
 .sliderContainer {
