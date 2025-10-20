@@ -80,9 +80,9 @@ body {
 .itemSelectionPanel,
 .nowPlayingPageImage {
     border-radius: var(--radius-card) !important;
-     border-color: var(--border-main);
-     border-width: var(--border-main-width);
-     border-style: var(--border-main-style);
+    border-color: var(--border-main-color);
+    border-width: var(--border-main-width);
+    border-style: var(--border-main-style);
 }
 
 /*Section*/
@@ -237,13 +237,18 @@ html,
 
 /* Series List */
 .listItemImage {
- border-radius: 0.5rem;
+ border-radius: var(--radius-card);
  border-color: var(--border-main-color);
  border-width: var(--border-main-width);
  border-style: var(--border-main-style);
 }
 
 .listItem {
- border-radius: var(--radius-card);
+ border-radius: calc(var(--radius-card)*2);
  padding: 1rem !important;
+}
+
+/* Player */
+.mdl-slider {
+ color: red;
 }
