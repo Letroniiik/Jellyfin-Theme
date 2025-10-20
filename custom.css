@@ -251,6 +251,7 @@ html,
 /* Player */
 .mdl-slider-background-lower {
  background-color: white !important;
+ border-radius: 20rem !important;
 }
 
 .mdl-slider {
