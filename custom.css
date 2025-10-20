@@ -245,5 +245,5 @@ html,
 
 .listItem {
  border-radius: var(--radius-card);
- padding: 1rem;
+ padding: 1rem !important;
 }
