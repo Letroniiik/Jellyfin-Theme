@@ -278,13 +278,17 @@ html,
 
 .mdl-slider-background-upper {
  background: hsla(0, 0%, 100%, 0.25) !important;
- height: 10px !important;
  border-radius: 20rem !important;
 }
 
 .mdl-slider-background-flex {
  border-radius: 20rem !important;
  background: none;
+}
+
+.mdl-slider-background-flex-inner {
+ border-radius: 20rem !important;
+ min-height: 10px !important;
 }
 
 .sliderContainer {
