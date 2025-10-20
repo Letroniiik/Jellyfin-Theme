@@ -250,5 +250,5 @@ html,
 
 /* Player */
 .mdl-slider {
- color: red;
+ color: red !important;
 }
