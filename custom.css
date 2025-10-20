@@ -276,4 +276,9 @@ html,
 .mdl-slider-background-upper {
  background: hsla(0, 0%, 100%, 0.25);
  height: 12px;
+ border-radius: 20rem;
+}
+
+.mdl-slider-background-flex-container {
+ height: 12px;
 }
