@@ -321,3 +321,8 @@ html,
 .upNextDialog-button {
  border-radius: 20rem;
 }
+
+.upNextDialog-mediainfo {
+ color: var(--color-text-details);
+ backdrop-filter: blur(32px);
+}
