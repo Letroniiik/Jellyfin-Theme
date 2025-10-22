@@ -309,7 +309,7 @@ html,
 
 /* Up Next */
 .upNextContainer {
- border-radius: var(--radius-main)
+ border-radius: var(--radius-main);
  padding: 2rem;
 }
 
@@ -324,5 +324,5 @@ html,
 
 .upNextDialog-mediainfo {
  color: var(--color-text-details);
- backdrop-filter: blur(32px);
+ backdrop-filter: blur(64px);
 }
