@@ -18,6 +18,8 @@
     --ui-50: #F2F2F2;
     --ui-0: #FFFFFF;
 
+   --color-on-bright: var(--ui-950);
+
     --color-text-heading: var(--ui-50);
     --color-text-body: var(--ui-50);
     --color-text-details: var(--ui-500);
@@ -302,4 +304,19 @@ html,
 
 .sliderBubble {
  border-radius: 20rem; 
+}
+
+
+/* Up Next */
+.upNextContainer {
+ border-radius: var(--radius-main)
+}
+
+.btnStartNow {
+ background: white;
+ color: var(--color-on-bright);
+}
+
+.upNextDialog-button {
+ border-radius: 20rem;
 }
