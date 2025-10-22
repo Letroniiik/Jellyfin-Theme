@@ -310,6 +310,7 @@ html,
 /* Up Next */
 .upNextContainer {
  border-radius: var(--radius-main)
+ padding: 2rem;
 }
 
 .btnStartNow {
