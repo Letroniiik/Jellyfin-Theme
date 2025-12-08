@@ -329,6 +329,11 @@ html,
 
 
 .homeLibraryButton {
- background-color: #1A1A1A;
- border-radius: 4rem;
+  background-color: var(--color-surface-button);
+  border-radius: 4rem;
+}
+
+.homeLibraryButton:hover {
+  background-color: var(--color-surface-button-hover);
+  color: var(--color-text-hover);
 }
