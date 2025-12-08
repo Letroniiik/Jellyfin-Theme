@@ -326,3 +326,8 @@ html,
  color: var(--color-text-details);
  backdrop-filter: blur(64px);
 }
+
+
+.homeLibraryButton {
+ background-color: #1A1A1A;
+}
