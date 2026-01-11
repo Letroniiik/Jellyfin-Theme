@@ -355,6 +355,6 @@ html,
 
 .editorsChoiceItemButton {
  position: static;
- bottom: 0px
+ bottom: 0px;
  border-radius: var(--radius-button-main);
 }
