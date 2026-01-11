@@ -339,11 +339,9 @@ html,
 }
 
 .splide__track {
-border-radius: calc(var(--radius-main)*2);
+    border-radius: calc(var(--radius-main)*2);
+    border-color: var(--border-main-color) !important;
+    border-width: var(--border-main-width) !important;
+    border-style: var(--border-main-style) !important;
 }
 
-[data-theme="dark"] {
- --jf-palette-primary-main: red;
- --jf-palette-primary-light: pink;
-  --jf-palette-primary-dark: green;
-}
