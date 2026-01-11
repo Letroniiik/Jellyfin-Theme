@@ -27,6 +27,7 @@
     --color-surface-body: var(--ui-1000) !important;
 
     --radius-main: 1rem;
+    --radius-button-main: 4rem;
     --radius-card: var(--radius-main);
 
     --border-main-width: 1px; 
@@ -355,4 +356,5 @@ html,
 .editorsChoiceItemButton {
  position: static;
  bottom: 0px
+ border-radius: var(--radius-button-main);
 }
