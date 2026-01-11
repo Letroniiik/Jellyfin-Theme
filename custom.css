@@ -339,5 +339,5 @@ html,
 }
 
 .splide__track {
-border-radius: calc(var(--radius-main)*4);
+border-radius: calc(var(--radius-main)*2);
 }
