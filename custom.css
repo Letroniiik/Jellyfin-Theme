@@ -345,3 +345,6 @@ html,
     border-style: var(--border-main-style) !important;
 }
 
+.editorsChoiceItemBanner > div {
+ align-items: flex-end;
+}
