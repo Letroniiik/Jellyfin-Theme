@@ -341,3 +341,7 @@ html,
 .splide__track {
 border-radius: calc(var(--radius-main)*2);
 }
+
+[data-theme="dark"] {
+ --jf-palette-primary-main: red;
+}
