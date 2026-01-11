@@ -344,4 +344,6 @@ border-radius: calc(var(--radius-main)*2);
 
 [data-theme="dark"] {
  --jf-palette-primary-main: red;
+ --jf-palette-primary-light: pink;
+  --jf-palette-primary-dark: green;
 }
