@@ -337,3 +337,7 @@ html,
   background-color: var(--color-surface-button-hover);
   color: var(--color-text-hover);
 }
+
+.splide__track {
+border-radius: calc(var(--radius-main)*4);
+}
