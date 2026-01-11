@@ -352,6 +352,7 @@ html,
  justify-content: flex-end
 }
 
-button {
- display: block;
+.editorsChoiceItemButton {
+ position: static;
+ bottom: 0px
 }
