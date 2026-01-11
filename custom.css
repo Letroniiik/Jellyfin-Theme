@@ -25,6 +25,7 @@
     --color-text-details: var(--ui-500);
 
     --color-surface-body: var(--ui-1000) !important;
+    --color-surface-bright: var(--ui-50) !important;
 
     --radius-main: 1rem;
     --radius-button-main: 4rem;
@@ -357,4 +358,6 @@ html,
  position: static;
  bottom: 0px;
  border-radius: var(--radius-button-main);
+ color: var(--color-on-bright);
+ background: var(--color-surface-bright);
 }
